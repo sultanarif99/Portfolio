@@ -1,0 +1,39 @@
+.footer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #e0dbdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer p:nth-child(1) {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.footer p:nth-child(2) {
+  font-size: 17px;
+  color: white;
+  line-height: 26px;
+  width: 500px;
+  text-align: center;
+}
+.socials {
+  display: flex;
+  gap: 2rem;
+}
+li {
+  list-style: none;
+  font-size: 30px;
+  justify-content: center;
+  padding-left: 0px;
+}
+.social li:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+  color: brown;
+
+}

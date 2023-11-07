@@ -6,6 +6,8 @@ nav{
     display: flex;
     position: relative;
     margin: 0 7%;
+    justify-content: space-between;
+
 
 }
 .menu{
@@ -25,34 +27,8 @@ nav{
     text-decoration: none;
     color: white
 }
-nav .rsection{
-    position: absolute;
-    right: 0;
-    transform: translateY(-50%);
-    top: 50%;
-}
-nav .rsection .btnLogin{
-    background-color: transparent;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 0 10px;
-}
 
-nav .rsection .btnSignUp{
-    background: linear-gradient(90deg, rgb(255, 225, 169) , rgb(255, 105, 213) 40%, purple);
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 0 10px;
+.menu li a:hover{
+    color: aqua;
+    
 }
